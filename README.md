@@ -1,1 +1,1 @@
-# QuizMastah
+# Quiz Mastah
