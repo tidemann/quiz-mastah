@@ -1,0 +1,36 @@
+{
+  "name": "quiz-mastah",
+  "version": "1.0.0",
+  "description": "Manage quiz teams and points",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings",
+    "postinstall": "typings install"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.12",
+    "systemjs": "0.19.24",
+    "es6-shim": "^0.35.0",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.6.6"
+  },
+  "devDependencies": {
+    "lite-server": "^2.1.0",
+    "typescript": "^1.8.9",
+    "typings":"^0.7.9"
+  },
+  "author": "Stig Tidemandsen",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tidemann/quiz-mastah.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tidemann/quiz-mastah/issues"
+  },
+  "homepage": "https://github.com/tidemann/quiz-mastah#readme"
+}
