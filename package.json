@@ -19,9 +19,10 @@
     "zone.js": "0.6.6"
   },
   "devDependencies": {
+    "gulp": "^3.9.1",
     "lite-server": "^2.1.0",
     "typescript": "^1.8.9",
-    "typings":"^0.7.9"
+    "typings": "^0.7.9"
   },
   "author": "Stig Tidemandsen",
   "license": "ISC",
