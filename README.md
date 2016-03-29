@@ -1,2 +1,2 @@
 # Quiz Mastah
-Manage quiz teams
+Manage quiz teams and points
