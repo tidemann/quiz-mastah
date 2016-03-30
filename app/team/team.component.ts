@@ -4,4 +4,6 @@ import {Component} from 'angular2/core';
     selector: 'team',
     template: '<h1>The team!</h1>'
 })
-export class TeamComponent { }
+export class TeamComponent {
+
+}
