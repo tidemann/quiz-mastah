@@ -20,12 +20,13 @@ import {AboutComponent} from "./about/about.component";
 
 export class AppComponent {
     welcome = 'Here we go!';
+
     menuItems = [{
         name: 'Teams',
-        link: 'teams'
+        text: 'Teams'
     },{
         name: 'About',
-        link: 'about'
+        text: 'About Stuff'
     }];
 
 }

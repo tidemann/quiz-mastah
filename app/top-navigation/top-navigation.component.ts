@@ -1,4 +1,4 @@
-import {Component} from 'angular2/core';
+import {Component, Input} from 'angular2/core';
 import {ROUTER_DIRECTIVES} from 'angular2/router';
 @Component({
     selector: 'top-navigation',
@@ -6,11 +6,5 @@ import {ROUTER_DIRECTIVES} from 'angular2/router';
     directives: [ROUTER_DIRECTIVES]
 })
 export class TopNavigationComponent {
-    menuItems = [{
-        name: 'Teams',
-        link: 'teams'
-    },{
-        name: 'About',
-        link: 'about'
-    }];
+    @Input('menuItems') menuItems: array;
 }
