@@ -3,6 +3,7 @@ import {RouteConfig,ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router'
 import {TopNavigationComponent} from './top-navigation/top-navigation.component';
 import {TeamListComponent} from "./team/teamlist.component";
 import {AboutComponent} from "./about/about.component";
+import {TeamComponent} from "./team/team.component";
 
 
 
@@ -15,6 +16,7 @@ import {AboutComponent} from "./about/about.component";
 
 @RouteConfig([
     { path: '/teams', name: 'Teams', component: TeamListComponent, useAsDefault: true },
+    { path: '/teams/team:id', name: 'TeamDetails', component: TeamComponent },
     { path: '/about', name: 'About', component: AboutComponent }
 ])
 

@@ -1,6 +1,9 @@
 <h1>Team list</h1>
 <ul>
-    <li *ngFor="#team of teams">{{team.name}}</li>
+    <li *ngFor="#team of teams">
+            <a [routerLink]="['TeamDetails', { id: 5}]" href="">{{team.name}}</a>
+
+    </li>
 </ul>
 
 
